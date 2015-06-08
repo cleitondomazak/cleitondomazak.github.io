@@ -1,1 +1,5 @@
-cleitondomazak.com	600	IN	A	184.168.221.34  
+cleitondomazak.com	600	IN	A	cleitondomazak.github.io.
+cleitondomazak.github.io. 43192 IN  CNAME github.map.fastly.net.
+github.map.fastly.net.        22      IN      A       199.27.76.133
+
+  
