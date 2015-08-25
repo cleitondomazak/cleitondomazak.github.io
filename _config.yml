@@ -1,54 +1,45 @@
-# Site settings
-title:       cleitondomazak
-email:       cleitondomazak@gmail.com
-author:      Cleiton Domazak
-description: ""
-baseurl:     ""
-url:         "http://cleitondomazak.com"
+# Dependencies
+markdown: redcarpet
+highlighter: pygments
 
-# Google analytics
-google_analytics:
+# Permalinks
+permalink: /posts/:title
+timezone: America/Sao_Paulo
 
-# Optional features
-animated:           false
-show_related_posts: false
-show_post_footers:  false
+# Setup
+title: Cleiton Luiz Domazak
+description: 'Database administration and related stuff, by Cleiton L. Domazak'
+baseurl:     ''
+url:         'http://cleitondomazak.com'
 
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname:
+author:
+  name: 'Cleiton Luiz Domazak'
+  url: https://facebook.com/cleitondomazak
+  email: cleitondomazak@gmail.com
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - bin
+
+gems:
+  # - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+
+sass:
+  sass_dir: _scss
+  compressed: true
+
+paginate: 3
+
+# Custom vars
+show_related_posts: true
+animated: true
 
 # Social icons
-show_social_icons: false
-github_username:
-stackoverflow_id:
-twitter_username:
-google_plus_id:
-linkedin_username:
-angellist_username:
-bitcoin_url:
-paypal_url:
-flattr_button:
+show_social_icons: true
+github_username: cleitondomazak
 
-# Post sharing icons
-show_sharing_icons: false
-share_text: 'Share this post!'
-# Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
-share_googleplus: false
-share_linkedin: false
-share_digg: false
-share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
-share_hackernews: false
-
-# Build settings
-markdown:     redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     3
-sass:
-  compressed: true
+google_analytics: UA-63859009-1
+disqus_shortname: cleitondomazak
