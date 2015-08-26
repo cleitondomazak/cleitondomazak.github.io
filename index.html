@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="home">
-
   <div class="posts">
     {% for post in paginator.posts %}
       <div class="post">
@@ -19,6 +18,5 @@ layout: default
       </div>
     {% endfor %}
   </div>
-
   {% include pagination.html %}
 </div>
