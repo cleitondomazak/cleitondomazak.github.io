@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Cleiton is a database administrator based in Joinville, Brazil. He currently works as DBA at ContaAzul.
+Cleiton is a database administrator based in Joinville, Brazil. He currently works as DBA and Cloud Consulting.
 
 When not working, he's running. He's ultra-trail runner.
 
