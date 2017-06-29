@@ -10,11 +10,10 @@ main() {
     \( -clone 0 -resize 48x48 \) \
     \( -clone 0 -resize 64x64 \) \
     -delete 0 -alpha off -colors 256 public/favicon.ico
-  
+
   convert "$image" \
     -resize 114x114 \
-    public/apple-touch-icon-144-precomposed.png
+    public/_DSC5579.JPG
 }
 
 main "$*"
-
